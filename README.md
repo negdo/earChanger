@@ -1,4 +1,4 @@
-# earChanger
+# Ear Changer
 
 Simple application for replacing ears on images. Ears are detected with Yolov5 and then inpainted with custom Stable Diffusion model trained on images from https://ctim.ulpgc.es/research_works/ami_ear_database/
 
