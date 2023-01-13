@@ -20,7 +20,7 @@ def inpaint(image_path, mask_path):
 
     # pipe = StableDiffusionInpaintPipeline.from_pretrained("runwayml/stable-diffusion-inpainting", torch_dtype=torch.float32)
     # pipe = StableDiffusionInpaintPipeline.from_pretrained("runwayml/stable-diffusion-inpainting",revision="fp16",torch_dtype=torch.float16)
-    pipe = StableDiffusionInpaintPipeline.from_pretrained("classes/ami-more", torch_dtype=torch.float32, unet=unet)
+    pipe = StableDiffusionInpaintPipeline.from_pretrained("miham/EarAMI-SD-v1-5", torch_dtype=torch.float32, unet=unet)
     # pipe = StableDiffusionInpaintPipeline.from_pretrained("D:/3d/slikovna biometrija/awe 8200", torch_dtype=torch.float32, unet=unet)
     pipe = pipe.to("cuda")
 
